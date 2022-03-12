@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search-Restaurant</title>
+    <link rel="icon" href="breakfast.jpg" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logonav" src="logo.jpeg" width="50px" height="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                </ul>
+                <form class="d-flex">
+
+                    <button class="btn btn-outline-light b1" type="submit">Login</button>
+                    <button class="btn btn-outline-light b1" type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Jumbotron -->
+    <div class="bg-image p-5 text-center shadow-1-strong rounded text-white home">
+        <a class="mb-3 h2">
+            <img class="logo" src="logo.jpeg" width="50px" height="50px">
+        </a>
+        <h1 class="mb-3 h2 bars">Find the best restaurants,Cafes and Bars</h1>
+        <div class="input-inline justify-content-center p-4  ">
+            <select class="srch  " aria-label="Default select example">
+                <option selected>Location</option>
+                <option value="1">Mumbai</option>
+                <option value="2">Pune</option>
+                <option value="3">Goa</option>
+                <option value="4">Banglore</option>
+                <option value="5">Delhi</option>
+            </select>
+            <input class="srch " type="search" placeholder=" Search for Restaurants" />
+        </div>
+
+    </div>
+    <!-- Jumbotron -->
+
+    <!-- Jumbotron -->
+    <div class="container-fluid mx-auto qs bg-light mb-4 ">
+        <div class="container-fluid col-md-11 col-11 mx-auto " >
+            <h2 class="text-center pt-4 text-info">Quick Searches</h2>
+            <p class="text-center mb-4 ">Discover restaurants by type of meal</p>
+
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="card mb-3 crd pt-4" style="max-width: 400px; ">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="breakfast.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2  text-info">Breakfast</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 crd pt-4" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="lunch.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2  text-info">Lunch</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 crd pt-4" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="snacks.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2  text-info">Snacks</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 crd pt-4" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6 ">
+                            <img src="dinner.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2  text-info">Dinner</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 crd pt-4" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="drinks.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="card-body text-center ">
+                                <h5 class="card-title mt-2  text-info ">Drinks</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 crd pt-4" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="nightlife.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2  text-info">Nightlife</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<!--
+    <div class="container-fluid mx-auto qs bg-light mb-4">
+        <div class="container-fluid col-md-11 col-11 mx-auto">
+            <h2 class="text-center pt-4">Quick Searches</h2>
+            <p class="text-center mb-4 para_qs">Discover restaurants by type of meal</p>
+
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="breakfast.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Breakfast</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="lunch.jpg" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Lunch</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="snacks.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Snacks</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="dinner.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Dinner</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="drinks.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Drinks</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px;">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <img src="nightlife.png" class="card-img img-fluid" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body text-center">
+                                <h5 class="card-title mt-2">Nightlife</h5>
+                                <p class="card-text mb-2">Start your day with exclusive breakfast optiopns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <span class="input-group-text srch2" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i>
+-->
+
+</html>
